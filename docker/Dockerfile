@@ -1,4 +1,4 @@
 FROM busybox
-MAINTAINER Aurelio Amerio
+MAINTAINER roonee789
 
-CMD ["echo", "Hello World! This is Gitops!"]
+CMD ["echo", "Hello World! This is GitOps!"]
