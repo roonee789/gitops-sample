@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: myvueapp-service # Set the name of the service
 spec:
+  type: LoadBalancer
   selector:
     app: myvueapp
   ports:
